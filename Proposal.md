@@ -19,35 +19,37 @@ Solo
 
 
 ## Description
+To create a tool for users to be able to see all meteors in a certain radius of the area and to work with the NASA Meteorite dataset. 
+
 Right now I have the entire dataset that I need. I have worked with some of the fields and worked with visualizing a few aspects. The data set is about 46,000 rows so working with this larger set will be good practice going forward. I want to be able to cleanly display this data so and use what I've found along the analysis to make and display certain results and predictions. 
 
 
 ## Challenges I Anticipate
-    Getting all geolocations translated to physical locations
-    Wasting time with long calculations running on a large dataset
-    Switching between different tools and resources (Jupyter, DS libraries, Javascript, Python, Django,...)
+* Getting all geolocations translated to physical locations
+* Wasting time with long calculations running on a large dataset
+* Switching between different tools and resources (Jupyter, DS libraries, Javascript, Python, Django,...)
 
 
 ## Skateboard
 Get data cleaned and displayed on a webpage.
 
 ## Bike
-Do basic visualizations (histograms, bar graphs, etc) and get optimize to reduce time. Work with geolocation libraries to help with displaying latitude and longitude.
+Do basic visualizations (histograms, bar graphs, etc.) and get optimize to reduce time. Work with geolocation libraries to help with displaying latitude and longitude and make searchable. 
 
 ## Car
-Get higher level visualizations using D3 library and other data visualization libraries.
-
+Use URL routing to get back results from the dataset
+Example:
+* .../location -> returns all meteors at that location
+* .../location/50 -> returns all meteors in the given radius of the location
 
 
 ## Personal Achievement Goals:
 
-**Each teammate must achieve 2 of 3 of their self-set personal achievement goals. If you're not on a team, delete the other teammate sections as needed.**
-
-### Teammate 1
-
-1. Find out ways to clean data
-1. Get datasets, visualizations, etc. display-able on a website
-1. Get all geolocations translated to the actual physical locations
+1. Clean Data
+2. Get datasets, visualizations, etc. display-able on a website
+3. Get all geolocations translated to the actual physical locations
+4. Get data into a database
+5. Make latitude, longitude, and geolocations indexable
 
 
 ## Wireframes
