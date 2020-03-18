@@ -17,30 +17,25 @@ It is a old and incomplete project.
 **Is your project Solo or Team?**
 Solo
 
+
 ## Description
-Right now I have the entire dataset that I need. I have worked with some of the fields and worked with visualizing a few aspects. The data set is about 46,000 rows so working with this larger set will be good practice going forward. 
-
-
+Right now I have the entire dataset that I need. I have worked with some of the fields and worked with visualizing a few aspects. The data set is about 46,000 rows so working with this larger set will be good practice going forward. I want to be able to cleanly display this data so and use what I've found along the analysis to make and display certain results and predictions. 
 
 
 ## Challenges I Anticipate
-
-**List out the challenges you anticipate for completing this project**
-
+    Getting all geolocations translated to physical locations
+    Wasting time with long calculations running on a large dataset
+    Switching between different tools and resources (Jupyter, DS libraries, Javascript, Python, Django,...)
 
 
 ## Skateboard
-
-**ONE SINGLE aspect of product. Consider: build backend for SPD 1.2 front end, CRUD one resource, use API or library, authentication etc.**
-
-**Start coding and finish “Skateboard” feature before beginning “Bike”.** 
+Get data cleaned and displayed on a webpage.
 
 ## Bike
-**ONE additional features that get you closer to your idealized product. Examples: CRUD 2nd resource, add comments, API use, authentication, library use** 
+Do basic visualizations (histograms, bar graphs, etc) and get optimize to reduce time. Work with geolocation libraries to help with displaying latitude and longitude.
 
 ## Car
-**ONE additional feature** 
-
+Get higher level visualizations using D3 library and other data visualization libraries.
 
 
 
@@ -50,9 +45,9 @@ Right now I have the entire dataset that I need. I have worked with some of the 
 
 ### Teammate 1
 
-1. Goal 1
-1. Goal 2
-1. Goal 3
+1. Find out ways to clean data
+1. Get datasets, visualizations, etc. display-able on a website
+1. Get all geolocations translated to the actual physical locations
 
 
 ## Wireframes
@@ -68,6 +63,6 @@ Right now I have the entire dataset that I need. I have worked with some of the 
 ### Sign off
 
 **Student Name:**                
-> Name / Date
+> Aleia Knight / March 17, 2020
 **Make School Advisor Name**
-> TBD
+> Alan Davis
