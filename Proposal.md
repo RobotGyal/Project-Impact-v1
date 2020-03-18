@@ -1,28 +1,33 @@
 # Juniors Spring Intensive Deliverable Proposal
 
-## TODO: copy this file, fill it out, and push it up to your project's repo.
 
 Dates 3/16-3/25
 
 **My Name:** 
+Aleia Knight
 
 
 **Project Name:** 
+Project Impact
 
 
 **Is your project New or Old?**
-
+It is a old and incomplete project.
 
 **Is your project Solo or Team?**
-
+Solo
 
 ## Description
+Right now I have the entire dataset that I need. I have worked with some of the fields and worked with visualizing a few aspects. The data set is about 46,000 rows so working with this larger set will be good practice going forward. 
 
-**Write a paragraph summary of the current status of your project, what you hope to achieve during the intensive, how and why**
+
+
 
 ## Challenges I Anticipate
 
 **List out the challenges you anticipate for completing this project**
+
+
 
 ## Skateboard
 
@@ -37,6 +42,8 @@ Dates 3/16-3/25
 **ONE additional feature** 
 
 
+
+
 ## Personal Achievement Goals:
 
 **Each teammate must achieve 2 of 3 of their self-set personal achievement goals. If you're not on a team, delete the other teammate sections as needed.**
@@ -47,43 +54,10 @@ Dates 3/16-3/25
 1. Goal 2
 1. Goal 3
 
-### Teammate 2
-
-1. Goal 1
-1. Goal 2
-1. Goal 3
-
-### Teammate 3
-
-1. Goal 1
-1. Goal 2
-1. Goal 3
-
-### Teammate 4
-
-1. Goal 1
-1. Goal 2
-1. Goal 3
-
 
 ## Wireframes
 
 **Insert wireframe pictures here**
-
-
-## Evaluation
-
-**You must meet the following criteria in order to pass the intensive:**
-
-- Students must get proposal approved before starting the project to pass
-- SOLO 
-    - must score an average above a 2.5 on the [rubric]
-- TEAM 
-    - Must score an average above 3 on the [rubric]
-    - Each individual completes 2 of the 3 personal achievement goals from their proposal
-- Pitch your product
-
-[rubric]:https://docs.google.com/document/d/1IOQDmohLBEBT-hyr-2vgw1mbZUNsq3fHxVfH0oRmVt0/edit
 
 
 ## Approval Checklist
