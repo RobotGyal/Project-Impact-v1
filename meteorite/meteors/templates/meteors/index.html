@@ -6,8 +6,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    {% load static %}
+
+    <script src="{% static 'js/main.js' %}"></script>
+
 </head>
 <body>
-    
+
+
+    {% block content %}
+    <script type="text/javascript">
+        $(function () {
+            // when hover action on button.
+            $('button').hover(function () {
+                // alert the button text.
+                alert($(this).text())
+            });
+        });
+    </script>
+    ......
+
+{% endblock %}
+
 </body>
 </html>

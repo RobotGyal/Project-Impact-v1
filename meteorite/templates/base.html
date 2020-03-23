@@ -1,14 +1,25 @@
+
+
 <!DOCTYPE html> 
 <html> 
   <head>
-    <link rel="stylesheet" href="style.css">
-		<script src="https://d3js.org/d3.v5.min.js">		</script>
-    <script src="main.js" defer></script>
+    <!-- {% block title %} -->
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'js/main.js' %}">
+        <script src="https://d3js.org/d3.v5.min.js">		</script>
+        <script src="{% static 'js/main.js' %}"></script>
+    <!-- <link rel=”stylesheet” href=”{% static 'css/dept_emp_style.css' %}”> -->
+    <!-- <script src="main.js" defer></script> -->
+    <!-- <a href="../static/js/main.js"></a> -->
+    <!-- {% endblock %} -->
   </head>
+
+
+  {% block content %}
 
   <body>
     <h3>Most Streamed YouTube Videos in Billions:</h3>
-	</body>
   
     <div></div>
     <div></div>
@@ -25,4 +36,7 @@
     <div></div>
     <div></div>
     <div></div>  
+    {% endblock %}
+</body>
+
 </html>
