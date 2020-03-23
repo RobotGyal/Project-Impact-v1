@@ -165,8 +165,10 @@ with open(file, mode='r') as input_file:
 
 pd.set_option("display.max_rows", 1000000)
 pd.set_option("display.max_columns", 1000000)
-meteor_kv = pd.DataFrame(meteor_kv)
+# meteor_kv = pd.DataFrame(meteor_kv)
 # print(meteor_kv)
+meteor_kv ='\n\n'.join(map(str, meteor_kv))
+
 
 # # file = "meteor_test_2000.csv"
 # # meteor_kv = []
