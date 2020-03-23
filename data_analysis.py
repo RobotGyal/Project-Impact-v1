@@ -151,18 +151,18 @@ print("\n\n\n")
 # # In[41]:
 
 
-# file = "meteor_test_2000.csv"
+file = "meteor_test_2000.csv"
 
-# my_list = []
+meteor_kv = []
 
-# with open(file, mode='r') as input_file:
-#     rows = []
-#     for row in input_file:
-#         rows.append(row.rstrip('\n').split(","))
-#     keys = rows[0]
-#     for values in rows[1:]:
-#         my_list.append(dict(zip(keys, values)))
-# print(my_list)
+with open(file, mode='r') as input_file:
+    rows = []
+    for row in input_file:
+        rows.append(row.rstrip('\n').split(","))
+    keys = rows[0]
+    for values in rows[1:]:
+        meteor_kv.append(dict(zip(keys, values)))
+# print(meteor_kv)
 
 # # file = "meteor_test_2000.csv"
 # # meteor_kv = []
