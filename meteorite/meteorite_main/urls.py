@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from meteors import views as meteor_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', meteor_views.index)
 ]
