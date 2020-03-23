@@ -10,8 +10,8 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     '''Main page setup function'''
-    print(data_analysis.meteor)
-    meteors = data_analysis.meteor
+    # print(data_analysis.meteor)
+    meteors = data_analysis.meteor_kv
     return render_template('index.html', meteors = meteors)
 
 
