@@ -13,40 +13,7 @@
 
 <body>
     <h1>Meteorite Data NASA Datset Visualization</h1>
-    <!-- <img src="/plot.png" alt="my plot"> -->
-
-    <div class="container" id="data-test">
-        <!-- {{meteors}}   -->
+    <a href="/table"> Data Table </a>
         
-<!-- 
-        <script>
-          getData()
-
-          async function getData(){
-            const response = await fetch('2000_meteors.txt')
-            const data = await response.text()
-            console.log(data)
-
-          }
-        </script> -->
-
-        <!-- <canvas id="chart" width="500" height="500"></canvas> -->
-
-<script>
-    displayJSON(); // calls function
-
-
-    // Creates function
-    async function displayJSON(){
-        const response = await fetch('meteor_test_2000.csv')
-        console.log(response)
-        const text = await response.text()
-        console.log(text)
-        document.getElementById("data-test").src = text
-    }
-
-
-</script>
-    </div>
-
+</body>
 </html>
