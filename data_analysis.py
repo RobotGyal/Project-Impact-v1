@@ -34,8 +34,8 @@ meteor = pd.read_csv('meteorite-landings.csv')
 meteor = pd.DataFrame(meteor)
 
 
-print(meteor)
-print("\n\n\n")
+# print(meteor)
+# print("\n\n\n")
 
 # # print(meteor.describe())
 # meteor.info()
@@ -52,9 +52,9 @@ print("\n\n\n")
 # print(mode(meteor['year']))
 
 
-# # # visualizing mass
+# # visualizing mass
 
-# # In[6]:
+# In[6]:
 
 
 
@@ -162,6 +162,10 @@ with open(file, mode='r') as input_file:
     keys = rows[0]
     for values in rows[1:]:
         meteor_kv.append(dict(zip(keys, values)))
+
+pd.set_option("display.max_rows", 1000000)
+pd.set_option("display.max_columns", 1000000)
+meteor_kv = pd.DataFrame(meteor_kv)
 # print(meteor_kv)
 
 # # file = "meteor_test_2000.csv"
