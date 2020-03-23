@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template, redirect, url_for
+import data_analysis
 
 app = Flask(__name__)
 
@@ -9,7 +10,9 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     '''Main page setup function'''
-    return render_template('index.html')
+    print(data_analysis.meteor)
+    meteors = data_analysis.meteor
+    return render_template('index.html', meteors = meteors)
 
 
 
