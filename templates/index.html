@@ -15,17 +15,15 @@
     <h1>Meteorite Data NASA Datset Visualization</h1>
     <!-- <img src="/plot.png" alt="my plot"> -->
 
-
     <div class="container" id="data-test">
-        <!-- {{meteors}} -->
-
+        <!-- {{meteors}}   -->
         
 <!-- 
         <script>
           getData()
 
           async function getData(){
-            const response = await fetch('meteor_test_2000.csv')
+            const response = await fetch('2000_meteors.txt')
             const data = await response.text()
             console.log(data)
 
@@ -33,7 +31,7 @@
         </script> -->
 
         <!-- <canvas id="chart" width="500" height="500"></canvas> -->
-<!-- 
+
 <script>
     displayJSON(); // calls function
 
@@ -41,25 +39,14 @@
     // Creates function
     async function displayJSON(){
         const response = await fetch('meteor_test_2000.csv')
-        const json = await response.JSON()
-        document.getElementById("data-test").src = json
+        console.log(response)
+        const text = await response.text()
+        console.log(text)
+        document.getElementById("data-test").src = text
     }
 
-//     const csv = require('csv-parser');
-// const fs = require('fs');
-// var data = []
-// fs.createReadStream('api_meteor_data.csv')
-//   .pipe(csv())
-//   .on('data', (row) => {
-//     // console.log(row);
-//     data.push(row)
-//   })
-//   .on('end', () => {
-//     console.log('CSV file successfully processed');
-//   });
 
-
-</script> -->
+</script>
     </div>
 
 </html>
