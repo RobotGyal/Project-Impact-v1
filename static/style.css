@@ -23,4 +23,20 @@ nav{
 
 html{
     color: white;
+    margin-left: 50px;
 }
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: greenyellow;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }

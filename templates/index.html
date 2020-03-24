@@ -15,31 +15,40 @@
 
 <body>
     {% block content %}
+    <div class="container">
+
     <h1>Project Impact</h1>
     <h2>Meteorite Data NASA Datset Visualization</h2>
-    <a href="/"> Home </a>
+    <a class="btn btn-outline-success" role="button" href="/"> Home </a>
 
     <a href="/table"> Data Table </a>
+
     <a href="/visuals"> Visuals </a>
 
-
-    <div class="card mb-3" style="max-width: 900px; background-color: rgba(253, 253, 253, 0);">
+    <div class="card mb-1" style="max-width: 900px; background-color: rgba(253, 253, 253, 0); text-align: left; margin-left: 75px;">
         <div class="row no-gutters">
           <div class="col-md-4">
-              <p>
-                  Block 2
-              </p>          
+            <br><br>
+                <p class="card-text">Meteorites.<br>Let's face it. No one desires to have one come their way regardless how beautiful or 'out-of-this-world" they may seem. </p>
+                <img src="static/meteor.jpg" alt="Meteor" style="height: 400px; width: 600px; padding-left: 200px;">
             </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h2 class="card-title"><strong>Title</strong></h2>
-              <p class="card-text">....................................................................../p>
-              <p class="card-text">.............................................................</p>
+              <p class="card-text">But wait? Meteors, Meteorits, and Meteors. What is the difference?</p>
+              <p>According to <a href="https://solarsystem.nasa.gov/asteroids-comets-and-meteors/meteors-and-meteorites/overview/?page=0&per_page=40&order=id+asc&search=&condition_1=meteor_shower%3Abody_type">NASA.gov </a> <br></p>
+              <p><em>"Meteoroids are objects in space that range in size from dust grains to small asteroids. Think of them as “space rocks."
+
+                When meteoroids enter Earth’s atmosphere (or that of another planet, like Mars) at high speed and burn up, the fireballs or “shooting stars” are called meteors.
+                
+                When a meteoroid survives a trip through the atmosphere and hits the ground, it’s called a meteorite."</em></p>
+                <img src="static/ams.jpg" alt="American Meteorological Society" style="height: 700px; width: 600px; padding-left: 200px;">
+                <br>
+                <p>I decided to do this project to raise awareness about different space rocks and how they can affect our daily lives. For example, as someone with no desire to live in a area with high meteor landing activity, I would love to have a tool that can tell me where those areas are. </p>
             </div>
           </div>
         </div>
       </div>
-
+    </div>
 
 
     {% endblock %}
