@@ -31,5 +31,12 @@ def table():
     text_file.close()
     return render_template('index_2.html', html = html)
 
+
+
+
+@app.route('/visuals')
+def visuals():
+    return render_template('visuals.html')
+
 if __name__=='__main__':
     app.run(Debug = True, host='0.0.0.0', port=os.environ.get('PORT', 5000))
