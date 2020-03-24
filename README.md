@@ -10,8 +10,6 @@
 ## Motivation
 This project was made for the purpose of ...
 
-## Learning Outcomes
-
 
 ## Technologies
 This project was built with:

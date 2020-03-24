@@ -1,10 +1,7 @@
 from flask import Flask, request, render_template, redirect, url_for
 import data_analysis
 import matplotlib.pyplot as plt
-<<<<<<< HEAD
 import pandas as pd
-=======
->>>>>>> ff3f7b1452592735eca5d314e263a91bc3d685e2
 
 
 app = Flask(__name__)
