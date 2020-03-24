@@ -1,7 +1,10 @@
 from flask import Flask, request, render_template, redirect, url_for
 import data_analysis
 import matplotlib.pyplot as plt
+<<<<<<< HEAD
 import pandas as pd
+=======
+>>>>>>> ff3f7b1452592735eca5d314e263a91bc3d685e2
 
 
 app = Flask(__name__)
@@ -37,6 +40,5 @@ def table():
 @app.route('/visuals')
 def visuals():
     return render_template('visuals.html')
-
 if __name__=='__main__':
     app.run(Debug = True, host='0.0.0.0', port=os.environ.get('PORT', 5000))

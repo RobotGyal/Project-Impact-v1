@@ -110,6 +110,7 @@ meteor = pd.DataFrame(meteor)
 # """
 
 
+<<<<<<< HEAD
 # 
 # # 2000 random points
 # 
@@ -120,6 +121,18 @@ meteor = pd.DataFrame(meteor)
 # api_meteor_data.to_csv('api_meteor_data.csv')  
 # randomly selects 2000 data points and puts them in data frame
 api_meteor_data = meteor.loc[np.random.randint(len(meteor), size = 2000)]
+=======
+# # 
+# # # 2000 random points
+# # 
+
+# # In[7]:
+
+
+# # api_meteor_data.to_csv('api_meteor_data.csv')  
+# # randomly selects 2000 data points and puts them in data frame
+# api_meteor_data = meteor.loc[np.random.randint(len(meteor), size = 2000)]
+>>>>>>> ff3f7b1452592735eca5d314e263a91bc3d685e2
 # print(api_meteor_data)
 # print(type(api_meteor_data))
 
@@ -167,10 +180,16 @@ pd.set_option("display.max_rows", 1000000)
 pd.set_option("display.max_columns", 1000000)
 # meteor_kv = pd.DataFrame(meteor_kv)
 # print(meteor_kv)
+<<<<<<< HEAD
 
 
 meteor_kv ='\n'.join(map(str, meteor_kv))
 
+=======
+meteor_kv ='\n\n'.join(map(str, meteor_kv))
+
+
+>>>>>>> ff3f7b1452592735eca5d314e263a91bc3d685e2
 # # file = "meteor_test_2000.csv"
 # # meteor_kv = []
 # # with open(file, mode='r') as input_file:
