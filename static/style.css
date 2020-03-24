@@ -28,15 +28,23 @@ html{
 
 /* unvisited link */
 a:link {
-    color: red;
+    color: rgb(253, 253, 253);
   }
   
   /* visited link */
   a:visited {
-    color: greenyellow;
+    color: rgb(244, 248, 240);
   }
   
   /* selected link */
   a:active {
     color: white;
+  }
+
+  button{
+      height: 25px;
+      margin: 7px;
+      border-radius: 25px;
+      background-color: rgba(205, 92, 92, 0.322);
+      border-color: black;
   }
