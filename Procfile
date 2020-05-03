@@ -1,1 +1,1 @@
-web: gunicorn project-impact:app
+web: gunicorn app:app
