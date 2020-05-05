@@ -10,7 +10,7 @@
 
 ![Status](https://img.shields.io/website?down_color=red&down_message=offline&style=for-the-badge&up_color=green&up_message=online&url=http%3A%2F%2Fproject-impact.tech)
 
-![Status](https://img.shields.io/github/issues/RobotGyal/Project-Impact?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/RobotGyal/Project-Impact-v1?style=for-the-badge)
 
 
 </div>
