@@ -30,7 +30,7 @@ sys.executable
 # In[5]:
 
 
-meteor = pd.read_csv('meteorite-landings.csv')
+meteor = pd.read_csv('data/meteorite-landings.csv')
 meteor = pd.DataFrame(meteor)
 
 
@@ -151,7 +151,7 @@ api_meteor_data = meteor.loc[np.random.randint(len(meteor), size = 2000)]
 # # In[41]:
 
 
-file = "meteor_test_2000.csv"
+file = "data/meteor_test_2000.csv"
 
 meteor_kv = []
 
