@@ -29,17 +29,13 @@
     color: #f1f1f1;
   }
   
+
+
   /* Style page content */
   .main {
-    margin-left: 250px; /* Same as the width of the sidebar */
+    margin-left: 250px; 
     padding: 0px 10px;
   }
-
-
-
-
-
-
 
 .navbar{
     background-image: url(meteor.jpg);
